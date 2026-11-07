@@ -44,7 +44,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/check-content",
+        "https://brandguard-ai-backend-ieh6.onrender.com/api/check-content",
         {
           method: "POST",
           headers: {
@@ -119,7 +119,7 @@ function App() {
       }
 
       const response = await fetch(
-        `http://localhost:5000/api/submissions/${result.submissionId}/review`,
+        `https://brandguard-ai-backend-ieh6.onrender.com/api/submissions/${result.submissionId}/review`,
         {
           method: "PATCH",
           headers: {

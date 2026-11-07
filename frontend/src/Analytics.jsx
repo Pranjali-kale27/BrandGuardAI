@@ -18,8 +18,8 @@ function Analytics() {
   async function fetchAnalytics() {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/analytics"
-      );
+      "https://brandguard-ai-backend-ieh6.onrender.com/api/analytics"      
+    );
 
       const data = await response.json();
 

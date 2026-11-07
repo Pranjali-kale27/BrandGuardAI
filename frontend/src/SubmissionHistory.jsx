@@ -9,7 +9,7 @@ function SubmissionHistory() {
     const fetchSubmissions = async () => {
       try {
         const response = await fetch(
-          "http://localhost:5000/api/submissions"
+          "https://brandguard-ai-backend-ieh6.onrender.com/api/submissions"
         );
 
         const data = await response.json();

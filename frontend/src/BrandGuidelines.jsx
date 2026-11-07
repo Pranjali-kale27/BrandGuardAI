@@ -27,7 +27,7 @@ function BrandGuidelines({ onGuidelinesChange }) {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/upload-guidelines",
+        "https://brandguard-ai-backend-ieh6.onrender.com/api/upload-guidelines",
         {
           method: "POST",
           body: formData,
